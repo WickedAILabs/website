@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom vars */
+:root{
+  --brand-primary: #2563eb;
+  --brand-secondary: #0f172a;
+}
+
+/* Utility */
+.hero {
+  background-image: linear-gradient(180deg, rgba(37,99,235,0.06), rgba(14,165,233,0.02));
+}
