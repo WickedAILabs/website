@@ -3,9 +3,9 @@ import { Helmet } from 'react-helmet-async'
 import Card from '../components/ui/Card'
 
 const rates = [
-  { role: 'Platform Engineer',      daily: '$2,000' },
-  { role: 'Solution Architect',     daily: '$2,000' },
-  { role: 'AI/ML Engineer',         daily: '$2,000' },
+  { role: 'Platform Engineer',      daily: '$2,300' },
+  { role: 'Solution Architect',     daily: '$2,500' },
+  { role: 'AI/ML Engineer',         daily: '$2,400' },
   { role: 'AI Software Developer',  daily: '$2,000' },
 ]
 
