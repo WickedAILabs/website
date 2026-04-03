@@ -12,7 +12,7 @@ export default function Navbar(){
           <NavLink to="/" className={({isActive}) => isActive ? 'text-brand-500' : ''}>Home</NavLink>
           <NavLink to="/about" className={({isActive}) => isActive ? 'text-brand-500' : ''}>About</NavLink>
           <NavLink to="/services" className={({isActive}) => isActive ? 'text-brand-500' : ''}>Services</NavLink>
-          <NavLink to="/rates" className={({isActive}) => isActive ? 'text-brand-500' : ''}>Rates</NavLink>
+          {/* <NavLink to="/rates" className={({isActive}) => isActive ? 'text-brand-500' : ''}>Rates</NavLink> */}
           <NavLink to="/contact" className={({isActive}) => isActive ? 'text-brand-500' : ''}>Contact</NavLink>
         </div>
       </nav>
