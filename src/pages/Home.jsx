@@ -1,11 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 import Button from '../components/ui/Button'
 import Card from '../components/ui/Card'
 
 export default function Home(){
   return (
     <div>
+      <Helmet>
+        <title>WickedAILabs — AI Consulting, Development &amp; Platforms</title>
+        <meta name="description" content="WickedAILabs helps organisations move from AI ambition to AI reality — through expert consulting, bespoke development, and production-ready AI platforms." />
+        <link rel="canonical" href="https://www.wickedailabs.com/" />
+      </Helmet>
       <section className="hero py-24">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">

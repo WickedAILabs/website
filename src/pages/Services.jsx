@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async'
 import Card from '../components/ui/Card'
 
 const services = [
@@ -31,6 +32,11 @@ const services = [
 export default function Services(){
   return (
     <div className="max-w-4xl mx-auto px-4 py-20">
+      <Helmet>
+        <title>AI Services — Consulting, Development, Platforms &amp; Cloud | WickedAILabs</title>
+        <meta name="description" content="WickedAILabs offers AI consulting, custom AI development, MLOps platform engineering, and cloud architecture on Azure and AWS for enterprise organisations." />
+        <link rel="canonical" href="https://www.wickedailabs.com/services" />
+      </Helmet>
       <h1 className="text-4xl font-bold mb-4">Our Services</h1>
       <p className="text-lg opacity-80 mb-4">
         WickedAILabs delivers end-to-end AI solutions — from initial strategy and consulting through to bespoke AI development and the deployment of production-grade AI platforms.
