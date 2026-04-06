@@ -31,7 +31,8 @@ const services = [
 
 export default function Services(){
   return (
-    <div className="max-w-4xl mx-auto px-4 py-20">
+    <div className="hero min-h-screen">
+      <div className="max-w-4xl mx-auto px-4 py-20">
       <Helmet>
         <title>AI Services — Consulting, Development, Platforms &amp; Cloud | WickedAILabs</title>
         <meta name="description" content="WickedAILabs offers AI consulting, custom AI development, MLOps platform engineering, and cloud architecture on Azure and AWS for enterprise organisations." />
@@ -54,6 +55,7 @@ export default function Services(){
             </ul>
           </Card>
         ))}
+      </div>
       </div>
     </div>
   )

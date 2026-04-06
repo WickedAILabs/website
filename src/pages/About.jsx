@@ -3,7 +3,8 @@ import { Helmet } from 'react-helmet-async'
 
 export default function About(){
   return (
-    <div className="max-w-4xl mx-auto px-4 py-20">
+    <div className="hero min-h-screen">
+      <div className="max-w-4xl mx-auto px-4 py-20">
       <Helmet>
         <title>About WickedAILabs — 30+ Years of AI, Cloud &amp; Software Expertise</title>
         <meta name="description" content="WickedAILabs is a specialist AI consulting firm with over 30 years of experience in software engineering, cloud infrastructure, AI and machine learning." />
@@ -22,6 +23,7 @@ export default function About(){
       <p className="text-lg opacity-80">
         We combine technical rigour with practical delivery experience. Whether you're mapping out your AI strategy, building a bespoke solution, or scaling an existing AI platform — we're the partner that gets it done.
       </p>
+      </div>
     </div>
   )
 }

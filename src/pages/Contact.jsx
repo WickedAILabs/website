@@ -3,7 +3,8 @@ import { Helmet } from 'react-helmet-async'
 
 export default function Contact() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-20">
+    <div className="hero min-h-screen">
+      <div className="max-w-4xl mx-auto px-4 py-20">
       <Helmet>
         <title>Contact WickedAILabs — Start Your AI Project</title>
         <meta name="description" content="Get in touch with WickedAILabs to discuss your AI consulting, development, or platform needs. We'd love to hear from you." />
@@ -22,6 +23,7 @@ export default function Contact() {
       <p className="text-lg opacity-80 mt-4">
         Mobile: +61 410 480 971
       </p>
+      </div>
     </div>
   )
 }
