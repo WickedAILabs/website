@@ -50,6 +50,36 @@ export default function Home(){
           </div>
         </div>
       </section>
+
+      <section className="py-16">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-10">Featured Product</h2>
+          <div className="max-w-md mx-auto">
+            <a
+              href="https://www.photocop-ai.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="PhotoCop AI — opens in a new tab"
+              className="block rounded-lg transition hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500"
+            >
+              <Card>
+                <div className="flex items-center gap-4">
+                  <img
+                    src="/photocop-logo.png"
+                    alt="PhotoCop AI logo"
+                    loading="lazy"
+                    className="w-16 h-16 object-contain flex-shrink-0"
+                  />
+                  <div>
+                    <h3 className="text-xl font-semibold mb-1">PhotoCop AI</h3>
+                    <p className="opacity-80 text-sm">AI-powered image forensics — detect manipulated and AI-generated images.</p>
+                  </div>
+                </div>
+              </Card>
+            </a>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }

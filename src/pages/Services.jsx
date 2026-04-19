@@ -13,7 +13,7 @@ const services = [
     title: 'AI Development',
     description:
       'From proof-of-concept to production. We design and build custom AI solutions — LLM integrations, intelligent agents, ML pipelines, and automation — engineered to solve real business problems.',
-    points: ['Custom LLM & generative AI solutions', 'Intelligent agent development', 'ML model development & integration', 'Process automation & AI-powered workflows'],
+    points: ['Custom LLM & generative AI solutions', 'Intelligent agent development', 'ML model development & integration', 'Process automation & AI-powered workflows', 'Spec-driven development setup, training & coaching'],
   },
   {
     title: 'AI Platforms',
