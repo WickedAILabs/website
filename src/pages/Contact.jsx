@@ -14,15 +14,49 @@ export default function Contact() {
       <p className="text-lg opacity-80 mb-6">
         Ready to explore what AI can do for your organisation? We'd love to hear from you.
       </p>
-      <a
-        href="mailto:enquiries@wickedailabs.com"
-        className="text-brand-500 text-lg underline hover:opacity-70"
-      >
-        enquiries@wickedailabs.com
-      </a>
-      <p className="text-lg opacity-80 mt-4">
-        Mobile: +61 410 480 971
+      <p className="text-lg opacity-80">
+        For general enquiries:{' '}
+        <a
+          href="mailto:enquiries@wickedailabs.com"
+          className="text-brand-500 underline hover:opacity-70"
+        >
+          enquiries@wickedailabs.com
+        </a>
       </p>
+
+      <div className="mt-10">
+        <h2 className="text-2xl font-semibold mb-2">Aaron Saikovski</h2>
+        <p className="text-lg opacity-80 mb-3">Technical Director</p>
+        <p className="text-lg opacity-80">
+          Email:{' '}
+          <a
+            href="mailto:aaron@wickedailabs.com"
+            className="text-brand-500 underline hover:opacity-70"
+          >
+            aaron@wickedailabs.com
+          </a>
+        </p>
+        <p className="text-lg opacity-80">
+          Mobile:{' '}
+          <a
+            href="tel:+61410480971"
+            className="text-brand-500 underline hover:opacity-70"
+          >
+            +61 410 480 971
+          </a>
+        </p>
+        <p className="text-lg opacity-80">
+          LinkedIn:{' '}
+          <a
+            href="https://www.linkedin.com/in/asaikovski/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-brand-500 underline hover:opacity-70"
+          >
+            linkedin.com/in/asaikovski
+          </a>
+        </p>
+      </div>
       </div>
     </div>
   )
