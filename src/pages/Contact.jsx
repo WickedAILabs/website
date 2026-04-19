@@ -26,7 +26,7 @@ export default function Contact() {
 
       <div className="mt-10">
         <h2 className="text-2xl font-semibold mb-2">Aaron Saikovski</h2>
-        <p className="text-lg opacity-80 mb-3">Technical Director</p>
+        <p className="text-lg opacity-80 mb-3">CTO/Founding Technical Director</p>
         <p className="text-lg opacity-80">
           Email:{' '}
           <a
