@@ -9,16 +9,18 @@ export default function Home(){
     <div className="hero min-h-screen">
       <Helmet>
         <title>WickedAILabs — AI Consulting, Development &amp; Platforms</title>
-        <meta name="description" content="WickedAILabs helps organisations move from AI ambition to AI reality — through expert consulting, bespoke development, and production-ready AI platforms." />
+        <meta name="description" content="WickedAILabs is an AI First, AI Native company — expert consulting, bespoke development, agent factories, and production-ready AI platforms." />
         <link rel="canonical" href="https://www.wickedailabs.com/" />
       </Helmet>
       <section className="py-24">
         <div className="max-w-6xl mx-auto px-4 text-center">
+         
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             AI Built for the Real World
           </h1>
+        
           <p className="text-lg opacity-80 max-w-2xl mx-auto mb-8">
-            WickedAILabs helps organisations move from AI ambition to AI reality — through expert consulting, bespoke development, and production-ready AI platforms.
+            WickedAILabs is an AI Native company. We live and breathe artificial intelligence — it's not an add-on, it's at the core of everything we build. From strategy to production, we help organisations harness AI to drive real business outcomes.
           </p>
           <div className="flex justify-center gap-4">
             <Link to="/contact"><Button>Start a Project</Button></Link>
@@ -30,7 +32,7 @@ export default function Home(){
       <section className="py-20">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">What We Do</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card>
               <h3 className="text-xl font-semibold mb-2">AI Consulting</h3>
               <p className="opacity-80">Strategy, readiness assessments, and AI roadmaps that turn ambition into a clear path forward.</p>
@@ -40,8 +42,8 @@ export default function Home(){
               <p className="opacity-80">Custom AI and LLM solutions, intelligent agents, and automation built for production.</p>
             </Card>
             <Card>
-              <h3 className="text-xl font-semibold mb-2">AI Platforms</h3>
-              <p className="opacity-80">End-to-end AI platform engineering — MLOps pipelines, model serving, and scalable infrastructure.</p>
+              <h3 className="text-xl font-semibold mb-2">Agent Factory</h3>
+              <p className="opacity-80">Design, build, and deploy autonomous AI agents at scale with repeatable frameworks and orchestration.</p>
             </Card>
             <Card>
               <h3 className="text-xl font-semibold mb-2">Cloud Architecture</h3>
