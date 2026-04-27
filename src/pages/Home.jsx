@@ -11,20 +11,23 @@ export default function Home(){
         <title>WickedAILabs — AI Consulting, Development &amp; Platforms</title>
         <meta name="description" content="WickedAILabs is an AI First, AI Native company — expert consulting, bespoke development, agent factories, and production-ready AI platforms." />
         <link rel="canonical" href="https://www.wickedailabs.com/" />
+        <meta property="og:image" content="/site-banner.png" />
+        <meta property="og:image:alt" content="WickedAILabs — AI Consulting, Development &amp; Platforms" />
+        <meta name="twitter:image" content="/site-banner.png" />
       </Helmet>
       <section className="py-24">
         <div className="max-w-6xl mx-auto px-4 text-center">
-         
+
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             AI Built for the Real World
           </h1>
-        
+
           <p className="text-lg opacity-80 max-w-2xl mx-auto mb-8">
             WickedAILabs is an AI Native company. We live and breathe artificial intelligence — it's not an add-on, it's at the core of everything we build. From strategy to production, we help organisations harness AI to drive real business outcomes.
           </p>
           <div className="flex justify-center gap-4">
             <Link to="/contact"><Button>Start a Project</Button></Link>
-            <Link to="/services" className="px-4 py-2 rounded-md border hover:bg-gray-50">Our Services</Link>
+            <Link to="/services" className="px-4 py-2 rounded-md border hover:bg-gray-50 min-h-[48px] inline-flex items-center">Our Services</Link>
           </div>
         </div>
       </section>

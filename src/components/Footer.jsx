@@ -9,10 +9,10 @@ export default function Footer(){
           © {new Date().getFullYear()} WickedAILabs. All rights reserved.
         </p>
         <div className="flex gap-6 opacity-70">
-          <Link to="/about" className="hover:opacity-100">About</Link>
-          <Link to="/services" className="hover:opacity-100">Services</Link>
-          <Link to="/contact" className="hover:opacity-100">Contact</Link>
-          <a href="mailto:enquiries@wickedailabs.com" className="hover:opacity-100">enquiries@wickedailabs.com</a>
+          <Link to="/about" className="hover:opacity-100 min-h-[48px] flex items-center py-2 px-3">About</Link>
+          <Link to="/services" className="hover:opacity-100 min-h-[48px] flex items-center py-2 px-3">Services</Link>
+          <Link to="/contact" className="hover:opacity-100 min-h-[48px] flex items-center py-2 px-3">Contact</Link>
+          <a href="mailto:enquiries@wickedailabs.com" className="hover:opacity-100 min-h-[48px] flex items-center py-2 px-3">enquiries@wickedailabs.com</a>
         </div>
       </div>
     </footer>

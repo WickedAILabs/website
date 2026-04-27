@@ -4,7 +4,20 @@
       "Bash(git:*)",
       "Bash(npm install:*)",
       "Bash(npm run:*)",
-      "Bash(gh pr *)"
+      "Bash(gh pr *)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(curl -s http://localhost:5173/about)",
+      "Bash(curl -s http://localhost:5173/resources)",
+      "Bash(curl -s http://localhost:5173/manifest.json)",
+      "Bash(python3 -m json.tool)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173/about)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173/services)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173/resources)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173/contact)",
+      "Bash(curl -s http://localhost:5173/services)",
+      "Bash(curl -s http://localhost:5173/contact)",
+      "Bash(pkill -f \"vite\")"
     ]
   }
 }

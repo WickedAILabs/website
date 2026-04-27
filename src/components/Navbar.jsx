@@ -9,12 +9,12 @@ export default function Navbar(){
         </Link>
 
         <div className="flex gap-6 text-sm font-medium">
-          <NavLink to="/" className={({isActive}) => isActive ? 'text-brand-500' : ''}>Home</NavLink>
-          <NavLink to="/about" className={({isActive}) => isActive ? 'text-brand-500' : ''}>About</NavLink>
-          <NavLink to="/services" className={({isActive}) => isActive ? 'text-brand-500' : ''}>Services</NavLink>
-          <NavLink to="/resources" className={({isActive}) => isActive ? 'text-brand-500' : ''}>Resources</NavLink>
-          {/* <NavLink to="/rates" className={({isActive}) => isActive ? 'text-brand-500' : ''}>Rates</NavLink> */}
-          <NavLink to="/contact" className={({isActive}) => isActive ? 'text-brand-500' : ''}>Contact</NavLink>
+          <NavLink to="/" className={({isActive}) => isActive ? 'text-brand-500 min-h-[48px] flex items-center py-2 px-3' : 'min-h-[48px] flex items-center py-2 px-3'}>Home</NavLink>
+          <NavLink to="/about" className={({isActive}) => isActive ? 'text-brand-500 min-h-[48px] flex items-center py-2 px-3' : 'min-h-[48px] flex items-center py-2 px-3'}>About</NavLink>
+          <NavLink to="/services" className={({isActive}) => isActive ? 'text-brand-500 min-h-[48px] flex items-center py-2 px-3' : 'min-h-[48px] flex items-center py-2 px-3'}>Services</NavLink>
+          <NavLink to="/resources" className={({isActive}) => isActive ? 'text-brand-500 min-h-[48px] flex items-center py-2 px-3' : 'min-h-[48px] flex items-center py-2 px-3'}>Resources</NavLink>
+          {/* <NavLink to="/rates" className={({isActive}) => isActive ? 'text-brand-500 min-h-[48px] flex items-center py-2 px-3' : 'min-h-[48px] flex items-center py-2 px-3'}>Rates</NavLink> */}
+          <NavLink to="/contact" className={({isActive}) => isActive ? 'text-brand-500 min-h-[48px] flex items-center py-2 px-3' : 'min-h-[48px] flex items-center py-2 px-3'}>Contact</NavLink>
         </div>
       </nav>
     </header>
